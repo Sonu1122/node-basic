@@ -1,0 +1,21 @@
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+          <% include partials/head.ejs %>
+          <% include partials/header.ejs %>
+          <h1>Signup Page</h1>
+          <br><br>
+          <table>
+            <tr><td></td></tr>
+            <tr><td>
+          <form action="signup" method="post">
+          Fullname <input type="text" name="fullname"><br><br>
+          Email   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" name="email"><br><br>
+          Password <input type="password" name="password"><br><br>
+          <button type="submit" name="submit">Submit</button>
+          </form></td></tr>
+          </table>
+        </div>
+    </div>
+    <% include partials/footer.ejs %>
+</nav>
